@@ -1,2 +1,3 @@
 # allsacredtexts.github.io
-A public AI-powered archive of sacred texts across world religions.
+
+A public AI-powered archive of sacred texts across world religions, **by Brady Bisel**.
