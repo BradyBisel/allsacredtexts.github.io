@@ -5,65 +5,53 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>All Sacred Texts</title>
   <style>
-    * {
-      box-sizing: border-box;
-    }
-
-    html, body {
+    body {
       margin: 0;
-      padding: 0;
+      font-family: system-ui, sans-serif;
       background-color: #111;
       color: #eee;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       line-height: 1.6;
-      overflow-x: hidden;
+      padding: 0 1rem;
     }
 
-    img.banner {
+    header img {
       width: 100%;
       height: auto;
       display: block;
+      margin: 0 auto;
     }
 
-    .content {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 2rem 1.5rem 4rem;
+    .container {
+      max-width: 800px;
+      margin: 2rem auto;
+      text-align: center;
     }
 
     h1 {
       font-size: 2.5rem;
-      text-align: center;
-      margin-bottom: 0.5rem;
+      margin-top: 1rem;
     }
 
     h2 {
       font-weight: normal;
-      color: #ccc;
-      font-size: 1.3rem;
-      text-align: center;
-      margin-bottom: 2rem;
+      color: #bbb;
+      font-size: 1.25rem;
+      margin-top: -1rem;
     }
 
     p {
-      font-size: 1.05rem;
-      text-align: justify;
-    }
-
-    strong {
-      color: #fff;
+      font-size: 1.1rem;
+      margin: 1rem 0;
     }
 
     .coming-soon {
-      margin: 2.5rem auto;
-      padding: 1rem 1.5rem;
-      text-align: center;
-      background-color: #222;
-      border-left: 5px solid #f9c74f;
-      border-radius: 6px;
-      color: #f9c74f;
+      margin: 3rem auto;
+      padding: 1rem;
+      background: #222;
+      border-left: 4px solid #ffcc00;
       font-size: 1.1rem;
-      max-width: 600px;
+      font-style: italic;
+      color: #ffc;
     }
 
     @media (max-width: 600px) {
@@ -71,35 +59,33 @@
         font-size: 2rem;
       }
       h2 {
-        font-size: 1.1rem;
+        font-size: 1rem;
       }
-      .content {
-        padding: 1rem;
+      .coming-soon {
+        font-size: 1rem;
       }
     }
   </style>
 </head>
 <body>
 
-  <img src="banner.png" alt="All Sacred Texts Banner" class="banner" />
+  <header>
+    <img src="banner.png" alt="All Sacred Texts Banner">
+  </header>
 
-  <div class="content">
+  <div class="container">
     <h1>All Sacred Texts</h1>
-    <h2>Illuminating the spiritual and historical connections between sacred writings—by Brady Bisel</h2>
+    <h2>Illuminating the spiritual and historical connections between sacred writings — by Brady Bisel</h2>
 
-    <p>
-      Welcome to <strong>All Sacred Texts</strong>, a heartfelt and collaborative project dedicated to exploring the wisdom passed down through generations of sacred texts.
-    </p>
+    <p><strong>Welcome to <em>All Sacred Texts</em></strong>, a heartfelt and collaborative project dedicated to exploring the wisdom passed down through generations of sacred texts.</p>
+
+    <p>Whether you're a scholar, a seeker, or someone just beginning to explore the spiritual tapestries of our world, this site is designed to be an open and evolving resource. Here, ancient scripture meets modern tools: we're using AI to help uncover connections, similarities, and deeper meanings that span traditions, time periods, and regions.</p>
 
     <div class="coming-soon">
-      🚧 This site is under construction — more sacred discoveries are coming soon!
+      🚧 More features and content coming soon — stay tuned as the project evolves!
     </div>
-
-    <p>
-      Whether you’re a scholar, a seeker, or someone just beginning to explore the spiritual tapestries of our world, this site is designed to be an open and evolving resource.
-      Here, ancient scripture meets modern tools: we’re using AI to help uncover connections, similarities, and deeper meanings that span traditions, time periods, and regions.
-    </p>
   </div>
 
 </body>
 </html>
+
